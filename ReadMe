@@ -1,0 +1,9 @@
+KotlinRestServiceSpringMVC
+-----------------------------
+1.From the command Line move to KotlinRestServiceSpringMVC directory and build the Project.
+2.Build Command: mvn clean install idea:clean idea:idea -Dwtpversion=2.0
+3.Deploy and Run the application Using tomcat7-maven-plugin with command mvn tomcat7:run-war.
+4.Check the REST API with POSTMAN REST Client
+Example1:http://localhost:9090/KotlinRestServiceSpringMVC/change/optimal?pence=576
+Example2:http://localhost:9090/KotlinRestServiceSpringMVC/change/supply?pence=576
+5.Source: Java8
